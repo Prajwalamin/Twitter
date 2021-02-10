@@ -1,0 +1,54 @@
+.sidebar{
+    flex:0.2;
+    margin-left:20px;
+    padding:10px 20px 10px 10px;
+    border-right:1px solid var(--twitter-background);
+}
+
+.sidebar__twitter{
+    color:var(--twitter-color);
+    padding:10px;
+   
+}
+
+.sidebar__options{
+    display:flex;
+    margin-top:1vh;
+    cursor: pointer;
+    align-items: center;
+    transition: color 100ms ease-in;
+}
+
+.sidebar__options > .MuiSvgIcon-root{
+    padding:10px;
+}
+
+.sidebar__options > h2{
+    font-weight: 800;
+    font-size:16px;
+    margin-right: 20px;
+    margin-left:3px;
+}
+
+
+.sidebar__options:hover{
+    color: var(--twitter-color);
+    background-color: #e8f5fe;
+    border-radius: 30px;
+
+}
+
+.sidebar__options--active{
+    color: var(--twitter-color);
+}
+
+.sidebar__tweet {
+    background-color:var(--twitter-color) !important;
+    border: none !important;
+    color:white !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    margin-top:20px !important;
+    height:50px !important;
+    border-radius: 30px !important;
+}

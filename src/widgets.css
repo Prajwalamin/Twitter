@@ -1,0 +1,35 @@
+.widgets{
+   flex:0.2;
+   margin-left:2vw;
+   margin-top:2.5vh;
+   margin-bottom:2vw;
+}
+
+.widgets__input{
+   display: flex;
+   padding:10px;
+   margin-bottom:2vh;
+   background-color: var(--twitter-background);
+   border-radius:20px;
+}
+
+.widgets__input > input {
+   border:none;
+   margin-left:5px;
+   background-color: var(--twitter-background);
+   color:white;
+}
+
+.widgets__input > input:focus{
+   border:none;
+}
+
+.widgets__widgetscontainer > h2 {
+   padding:10px;
+}
+
+.widgets__searchicon{
+   color:gray;
+   padding:0 3px 0 5px;
+}
+
