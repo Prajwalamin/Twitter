@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Create React App 
+
+This file has already been deployed - https://twitter-4e4df.web.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
