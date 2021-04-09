@@ -3,8 +3,9 @@ import { useEffect, useState} from 'react';
 import './feed.css';
 import Tweetbox from './tweetbox';
 import Post from './post.js';
-import db from './firebase';
-
+import { db, auth } from './firebase';
+import { Button } from '@material-ui/core';
+import Exit from '@material-ui/icons/ExitToApp';
 
 
 function Feed() {
@@ -22,7 +23,10 @@ function Feed() {
         <div className='feed'>
             {/* Header Part  */}
             <div className='header'>
-            <h2> Home </h2>
+                <h2> Home </h2>
+                <div className="Signout">   
+                    <Button onClick={() => auth.signOut()} disabled={!auth.currentUser}> <Exit className="button" fontSize="Medium"/> </Button>
+                </div>
             </div>
 
             <Tweetbox/>

@@ -9,6 +9,7 @@ import Message from '@material-ui/icons/Message';
 import Bookmark from '@material-ui/icons/Bookmark';
 import Lists from '@material-ui/icons/ListAlt';
 import More from '@material-ui/icons/MoreHoriz';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import { Button } from '@material-ui/core';
 
 function sidebar() {
@@ -18,6 +19,7 @@ function sidebar() {
 
             <TwitterIcon className='sidebar__twitter' fontSize="large"/>
             <Sidebaroptions active Icon={HomeIcon} text="Home"/>
+            <Sidebaroptions Icon={AccountCircleIcon} text="Profile"/>
             <Sidebaroptions Icon={SearchIcon} text="Explore" />
             <Sidebaroptions Icon={Note} text="Notifications" />
             <Sidebaroptions Icon={Message} text="Message" />

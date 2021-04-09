@@ -10,3 +10,38 @@ body {
   margin-right: auto;
   padding: 0 10px;
 }
+.Sign {
+  display: flex;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  margin-top: 8vh;
+}
+
+.Sign__button {
+  background-color: var(--twitter-color);
+  padding: 60px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 32vh;
+  margin-bottom: 30vh;
+  margin-left: 150px;
+}
+.Sign__title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.Sign__google {
+  background-color: white;
+  display: flex;
+  border-radius: 30px;
+  padding: 5px 20px;
+}
+
+.Sign__google > Button:hover {
+  background-color: white;
+  color: rgb(110, 110, 110);
+}
